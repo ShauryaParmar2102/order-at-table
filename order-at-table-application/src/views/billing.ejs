@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head.ejs") %>
+    <script type="module" src="/scripts/billing.mjs" defer></script>
+    <title>Billing</title>
+</head>
+<body>
+    <section>
+        <main class="split-view">
+            <section class="split-view-side">
+                <section class="top-bar">
+                    <%- include("partials/logout.ejs") %>
+                    <input 
+                        class="grow"
+                        type="text" 
+                        name="search"
+                        id="billing-search" 
+                        placeholder="search tables and bills" 
+                    >
+                    <label>
+                        Show all:
+                        <input 
+                            type="checkbox" 
+                            id="billing-show-all" 
+                        >
+                    </label>
+                </section>
+                <section class="card-list" id="bill-list">
+                    Loading bills...
+                </section>
+            </section>
+            <section class="split-view-side">
+                <section class="grow bill-details" id="bill-details">
+                </section>
+                <section class="bottom-bar">
+                    <select id="bill-status-select" class="grow">
+                        <option value="open">Open</option>
+                        <option value="unpaid">Unpaid</option>
+                        <option value="paid">Paid</option>
+                    </select>
+                    <input type="button" value="Update" id="bill-update-status">
+                </section>
+            </section>
+        </main>
+    </section>
+</body>
+</html>
