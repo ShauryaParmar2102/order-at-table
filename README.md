@@ -139,6 +139,7 @@ Open the terminal inside the project folder and run:
 
 npm install
 
+
 This will install all required packages and create the node_modules folder.
 
 ▶️ 3. Start the Application
@@ -146,6 +147,7 @@ This will install all required packages and create the node_modules folder.
 Run:
 
 npm run start
+
 🌐 4. Open the Application
 
 Go to:
