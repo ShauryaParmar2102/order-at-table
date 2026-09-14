@@ -173,6 +173,14 @@ The Order at Table App should now be running in your browser.
 
 ### ➕ Adding More Staff Accounts
 
+### ➕ Adding a New Staff Account
+
+To add a new staff account, open `src/models/StaffModel.mjs` and add another `new StaffModel()` entry inside `StaffModel.setDataSource()`.
+
+Example:
+
+- new StaffModel("Sam", STAFF_ROLE_KITCHEN, "sam123")
+
 New staff accounts are added directly in:
 
 
@@ -180,9 +188,11 @@ src/models/StaffModel.mjs
 
 Available roles are:
 
-STAFF_ROLE_WAIT
-STAFF_ROLE_KITCHEN
-STAFF_ROLE_MANAGER
+- STAFF_ROLE_WAIT
+
+- STAFF_ROLE_KITCHEN
+
+- STAFF_ROLE_MANAGER
 
 ## 👨‍💻 Author
 
