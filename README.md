@@ -87,16 +87,6 @@ Wait staff can:
 - 📅 View the date a bill was created
 - ✅ Change bill status
 
-🛠️ Manager
-
-Managers can:
-
-- 👥 Access the staff management section
-- 📋 View staff members
-- 👤 Select individual staff members
-- ✏️ Update staff information
-- 🗑️ Delete staff members
-- 🔐 Manage staff with different roles
 
 New default staff accounts are added directly through the application code.
 
