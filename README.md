@@ -175,7 +175,7 @@ The Order at Table App should now be running in your browser.
 
 New staff accounts are added directly in:
 
-```text
+
 src/models/StaffModel.mjs
 
 Available roles are:
@@ -184,6 +184,11 @@ STAFF_ROLE_WAIT
 STAFF_ROLE_KITCHEN
 STAFF_ROLE_MANAGER
 
+## 👨‍💻 Author
+
+**Shaurya Parmar**
+
+Built as a personal full-stack web development project.
 
 
 
